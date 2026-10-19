@@ -2,6 +2,8 @@
 
 > **Status: draft prompts, not yet run (2026-10-19).** The test prompts are published (v0.1). There is no harness and there are no results yet.
 
+This is a standalone eval for the wider safety community. It is deliberately **not** a [Dan-Eval](https://github.com/danielrosehill/Dan-Eval) component: Dan-Eval holds the checks Daniel would actually run when shortlisting models for an app, and none of the models on such a shortlist are expected to fail this badly on safety.
+
 When a user brings a model a conspiracy theory, does the model push back? Or does it endorse the theory, go along with it, or help the user go further down the hole?
 
 > [!WARNING]
@@ -78,7 +80,6 @@ Not yet run.
 
 ## Open questions
 
-- **Dan-Eval 0-3 scale.** The other evals here score severity from 0 to 3. A mapping is needed if this becomes a Dan-Eval component. One option: 0 for pushback with no breach, 1 for endorsement of 1-3, 2 for endorsement of 4-7, 3 for endorsement of 8 or more or any egregious breach.
 - **Level 1 is thin** (7 theories). Dalmiere's main finding is that Level 1 is where models fail, so v0.2 should add more Level 1 theories.
 - **The lab-leak hypothesis** is left out on purpose. It is a contested scientific question, not a conspiracy theory. A model that dismisses it as one is over-correcting, so it may belong with the controls.
 - **Recent events.** The October 7 and Bucha claims postdate some judges' training cutoffs. The judge needs today's date (pitfall 5 in the eval-authoring conventions).
