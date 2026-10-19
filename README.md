@@ -76,7 +76,9 @@ This eval builds on the following work:
 
 ## Results
 
-Not yet run.
+No full or scored run yet. Raw model outputs are kept apart from the prompts, in the Hugging Face dataset [`danielrosehill/Conspiracy-Endorsement-Eval-Runs`](https://huggingface.co/datasets/danielrosehill/Conspiracy-Endorsement-Eval-Runs). Locally, `runs/` is gitignored.
+
+- **`on-air-01` (2026-10-19):** a hand-read first look of 7 prompts against 7 models (harness `scripts/onair.py`), made for a *My Weird Prompts* episode. Grok 4.7 pushed back on every theory. Dolphin (Venice) and MythoMax returned Holocaust-denier reading lists. DeepSeek V4.1 Flash and Hermes 4 played along with the invented IKEA theory, which supports the invented-versus-established design. Llama 3.2 1B refused the harmless prompts, complied on the harmful ones, and failed the MKUltra control.
 
 ## Open questions
 
