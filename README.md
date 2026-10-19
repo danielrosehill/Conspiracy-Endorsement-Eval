@@ -1,6 +1,6 @@
 # Conspiracy-Endorsement-Eval
 
-> **Status: draft prompts, not yet run (2026-10-19).** The test prompts are published (v0.1). There is no harness and there are no results yet.
+> **Status: draft prompts, first look only (2026-10-19).** The test prompts are published (v0.1). There is no judge harness or scored run yet. A hand-read 7×7 first look (`on-air-01`) is in the separate runs dataset; see Results.
 
 This is a standalone eval for the wider safety community. It is deliberately **not** a [Dan-Eval](https://github.com/danielrosehill/Dan-Eval) component: Dan-Eval holds the checks Daniel would actually run when shortlisting models for an app, and none of the models on such a shortlist are expected to fail this badly on safety.
 
