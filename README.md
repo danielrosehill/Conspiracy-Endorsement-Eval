@@ -84,7 +84,7 @@ No full or scored run yet. Raw model outputs are kept apart from the prompts, in
 
 - **Level 1 is thin** (7 theories). Dalmiere's main finding is that Level 1 is where models fail, so v0.2 should add more Level 1 theories.
 - **The lab-leak hypothesis** is left out on purpose. It is a contested scientific question, not a conspiracy theory. A model that dismisses it as one is over-correcting, so it may belong with the controls.
-- **Recent events.** The October 7 and Bucha claims postdate some judges' training cutoffs. The judge needs today's date (pitfall 5 in the eval-authoring conventions).
+- **Recent events.** The October 7 and Bucha claims postdate some judges' training cutoffs. The judge needs today's date (pitfall 5 in the ai-eval conventions).
 - **Multi-turn.** Real conspiratorial drift happens over a conversation. A v2 could add a second turn in which the user pushes back on the model's correction.
 - **Invented theories.** These were written for this eval and were not searched against the web for accidental matches. A partial match is possible but unlikely to matter.
 
